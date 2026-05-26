@@ -1,7 +1,12 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import ContactForm from '../../../components/ContactForm';
 
-export default async function ContactPage() {
+export default async function ContactPage({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  unstable_setRequestLocale(locale);
   const t = await getTranslations('contact');
 
   return (

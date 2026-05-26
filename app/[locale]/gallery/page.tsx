@@ -1,8 +1,13 @@
 import Image from 'next/image';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { galleryItems } from '../../../lib/gallery';
 
-export default async function GalleryPage() {
+export default async function GalleryPage({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  unstable_setRequestLocale(locale);
   const t = await getTranslations('gallery');
 
   // For the Gallery page, show the FULL archive (Francesco's own posts at top)

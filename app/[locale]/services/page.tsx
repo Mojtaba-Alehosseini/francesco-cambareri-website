@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 const TIER_KEYS = ['online', 'inPerson', 'hybrid'] as const;
 
@@ -8,6 +8,7 @@ export default async function ServicesPage({
 }: {
   params: { locale: string };
 }) {
+  unstable_setRequestLocale(locale);
   const t = await getTranslations('services');
   const base = `/${locale}`;
 

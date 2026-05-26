@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { featuredItems } from '../../lib/gallery';
 import VintageGallery from '../../components/VintageGallery';
 
@@ -9,6 +9,7 @@ export default async function HomePage({
 }: {
   params: { locale: string };
 }) {
+  unstable_setRequestLocale(locale);
   const t = await getTranslations('home');
   const base = `/${locale}`;
 
