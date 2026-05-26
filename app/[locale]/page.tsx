@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { featuredItems } from '../../lib/gallery';
 import VintageGallery from '../../components/VintageGallery';
+import { asset } from '../../lib/asset';
 
 export default async function HomePage({
   params: { locale },
@@ -54,7 +55,7 @@ export default async function HomePage({
             <div className="lg:col-span-5 fade-up">
               <figure className="relative aspect-[4/5] w-full border border-sepia-300 shadow-[0_20px_60px_-30px_rgba(85,60,31,0.6)]">
                 <Image
-                  src={hero.src}
+                  src={asset(hero.src)}
                   alt={hero.title}
                   fill
                   priority
@@ -99,7 +100,7 @@ export default async function HomePage({
             <li key={it.src} className="group">
               <div className="relative aspect-square overflow-hidden border border-sepia-200">
                 <Image
-                  src={it.src}
+                  src={asset(it.src)}
                   alt={it.title}
                   fill
                   sizes="(max-width: 768px) 50vw, 16vw"

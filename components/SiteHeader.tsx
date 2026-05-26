@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import type { Locale } from '../i18n';
 import LanguageSwitcher from './LanguageSwitcher';
+import { asset } from '../lib/asset';
 
 const NAV = [
   { href: '', key: 'home' },
@@ -29,7 +30,7 @@ export default function SiteHeader({ locale }: { locale: Locale }) {
           aria-label="Francesco Cambareri — home"
         >
           <Image
-            src="/brand/logo-mark.png"
+            src={asset('/brand/logo-mark.png')}
             alt=""
             width={44}
             height={44}

@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { galleryItems, type GalleryCategory } from '../lib/gallery';
+import { asset } from '../lib/asset';
 
 const ALL_CATS: (GalleryCategory | 'all')[] = [
   'all',
@@ -86,7 +87,7 @@ export default function VintageGallery() {
             >
               <div className="relative aspect-[4/5] overflow-hidden bg-sepia-100 border border-sepia-200">
                 <Image
-                  src={item.src}
+                  src={asset(item.src)}
                   alt={item.title}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -148,7 +149,7 @@ function Modal({
         </button>
         <div className="relative w-full aspect-[4/3] bg-sepia-100">
           <Image
-            src={item.src}
+            src={asset(item.src)}
             alt={item.title}
             fill
             sizes="(max-width: 768px) 100vw, 768px"

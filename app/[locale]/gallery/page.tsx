@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { galleryItems } from '../../../lib/gallery';
+import { asset } from '../../../lib/asset';
 
 export default async function GalleryPage({
   params: { locale },
@@ -56,7 +57,7 @@ export default async function GalleryPage({
             <li key={it.src} className="fade-up" style={{ animationDelay: `${(i % 8) * 50}ms` }}>
               <div className="relative aspect-[4/5] overflow-hidden border border-sepia-200 bg-sepia-100">
                 <Image
-                  src={it.src}
+                  src={asset(it.src)}
                   alt={it.title}
                   fill
                   sizes="(max-width: 768px) 50vw, 25vw"
@@ -88,7 +89,7 @@ export default async function GalleryPage({
             <li key={it.src} className="fade-up" style={{ animationDelay: `${(i % 8) * 50}ms` }}>
               <div className="relative aspect-[4/5] overflow-hidden border border-sepia-200 bg-sepia-100">
                 <Image
-                  src={it.src}
+                  src={asset(it.src)}
                   alt={it.title}
                   fill
                   sizes="(max-width: 768px) 50vw, 25vw"

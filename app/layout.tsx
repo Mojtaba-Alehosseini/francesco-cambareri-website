@@ -20,11 +20,13 @@ const sans = Inter({
   variable: '--font-sans',
 });
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+
 export const metadata: Metadata = {
   title: 'Francesco Cambareri — Calisthenics Personal Trainer',
   description:
     'Francesco Cambareri, Personal Trainer di Calistenia. Allenamento a corpo libero nella tradizione della cultura fisica, dal 1880 a oggi.',
-  icons: { icon: '/brand/favicon-source.png' },
+  icons: { icon: `${basePath}/brand/favicon-source.png` },
 };
 
 /**

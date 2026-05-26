@@ -1,5 +1,6 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
+import { asset } from '../../../lib/asset';
 
 export default async function AboutPage({
   params: { locale },
@@ -27,7 +28,7 @@ export default async function AboutPage({
         <figure className="relative aspect-[4/5] border border-sepia-300 shadow-[0_20px_60px_-30px_rgba(85,60,31,0.6)] bg-sepia-100">
           {/* Placeholder portrait — Francesco will swap with his own photo */}
           <Image
-            src="/images/francesco-ig/one-arm-pullup-late60s-early70s-1.png"
+            src={asset('/images/francesco-ig/one-arm-pullup-late60s-early70s-1.png')}
             alt="Portrait placeholder — replace with Francesco's photo"
             fill
             className="object-cover vintage-tone"
