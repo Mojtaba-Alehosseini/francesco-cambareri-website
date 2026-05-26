@@ -33,7 +33,8 @@ export default async function LocaleLayout({
         href="#main"
         className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-cream-50 focus:px-3 focus:py-2 focus:border focus:border-sepia-400"
       >
-        {messages?.common?.skipToContent ?? 'Skip to content'}
+        {(messages as { common?: { skipToContent?: string } })?.common?.skipToContent ??
+          'Vai al contenuto'}
       </a>
       <SiteHeader locale={locale as Locale} />
       <main id="main" className="min-h-screen">
