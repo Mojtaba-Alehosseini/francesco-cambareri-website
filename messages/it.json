@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "home": "Calistenia",
+    "about": "Chi sono",
+    "services": "Servizi",
+    "gallery": "Galleria",
+    "contact": "Contatti",
+    "bookCta": "Allenati con me"
+  },
+  "home": {
+    "hero": {
+      "kicker": "Cultura Fisica · 1880 — 2026",
+      "title": "Francesco Cambareri",
+      "subtitle": "Personal Trainer di Calistenia",
+      "lead": "La forza del corpo libero ha una storia lunga oltre un secolo. Ogni trazione, ogni planche, ogni manina sulle clave indiane porta in sé un'eredità di disciplina, eleganza e pazienza. Questa è la mia palestra.",
+      "ctaPrimary": "Inizia il percorso",
+      "ctaSecondary": "Vedi la galleria"
+    },
+    "manifesto": {
+      "title": "Un manifesto, non un metodo",
+      "p1": "Allenare il corpo significa allenare il carattere. Le immagini in questa pagina raccontano un secolo e mezzo di calistenia: da Sandow agli atleti di Amburgo del 1902, dal Sokol di Praga ai cortili delle scuole inglesi degli anni Settanta.",
+      "p2": "La calistenia non è una moda. È una grammatica del movimento che attraversa generazioni. Il mio lavoro è restituirla a chi vuole costruire una forza che duri."
+    },
+    "gallerySection": {
+      "title": "L'Archivio Visivo",
+      "subtitle": "Una selezione di fotografie e illustrazioni di pubblico dominio, intrecciata con le pubblicazioni dell'account @vintage_calisthenics."
+    },
+    "filters": {
+      "all": "Tutti",
+      "francesco": "Archivio Cambareri",
+      "strongmen": "Strongmen",
+      "gymnastics": "Ginnastica",
+      "indian-clubs": "Clave indiane",
+      "outdoor": "Ginnastica all'aperto",
+      "drawings": "Disegni & stampe",
+      "magazines": "Riviste"
+    }
+  },
+  "about": {
+    "title": "Chi sono",
+    "kicker": "Personal Trainer · Calistenia",
+    "lead": "Mi chiamo Francesco Cambareri. Ho ventiquattro anni e insegno calistenia.",
+    "section1": {
+      "title": "Una pratica antica",
+      "body": "Lavoro con il corpo libero perché credo che la calistenia sia la forma più onesta di allenamento: non hai pesi da nascondersi dietro, hai solo la tua massa, la gravità e la tecnica. Tre cose che, messe insieme, fanno una vita."
+    },
+    "section2": {
+      "title": "Cosa offro",
+      "body": "Programmi personalizzati che partono dal tuo livello reale — non da quello che pensi di avere. Insegno le skill — pull-up, dip, planche, front lever, handstand — costruendole sopra una base solida di forza, mobilità e propriocezione."
+    },
+    "section3": {
+      "title": "Per chi",
+      "body": "Per chi è stanco delle palestre commerciali. Per chi vuole imparare un mestiere del corpo. Per chi crede che la forma fisica non sia un servizio rapido ma un'arte lenta."
+    }
+  },
+  "services": {
+    "title": "Servizi",
+    "kicker": "Programmi di allenamento",
+    "lead": "Tre modalità, una stessa serietà.",
+    "tiers": {
+      "online": {
+        "name": "Online",
+        "tag": "Da remoto",
+        "price": "Su richiesta",
+        "desc": "Programma personalizzato, schede settimanali, video correttivi, contatto continuo. Funziona se sai allenarti da solo.",
+        "features": [
+          "Scheda calistenica progressiva",
+          "Video tutorial e correzioni",
+          "Check settimanale",
+          "Pianificazione delle skill"
+        ]
+      },
+      "inPerson": {
+        "name": "In presenza",
+        "tag": "Più completo",
+        "price": "Su richiesta",
+        "desc": "Sessioni 1-a-1 al parco o in palestra outdoor. La pratica calistenica vive del contatto: la correzione di postura non passa da un video.",
+        "features": [
+          "Sessioni individuali",
+          "Programmazione mensile",
+          "Lavoro su skill specifiche",
+          "Mobilità e prevenzione"
+        ]
+      },
+      "hybrid": {
+        "name": "Ibrido",
+        "tag": "La scelta più frequente",
+        "price": "Su richiesta",
+        "desc": "Una sessione in presenza al mese più il follow-up online. Il modo migliore di avere continuità e correzione tecnica.",
+        "features": [
+          "Sessione mensile in presenza",
+          "Scheda online + check settimanali",
+          "Valutazione periodica",
+          "Programmazione di lungo periodo"
+        ]
+      }
+    },
+    "cta": "Scrivimi per il preventivo"
+  },
+  "gallery": {
+    "title": "Galleria",
+    "kicker": "Lavori, allievi, archivio",
+    "lead": "La mia palestra non ha pareti. Foto delle sessioni, dei progressi degli allievi e dei luoghi dove alleno. Le foto storiche dell'archivio vivono accanto a quelle di oggi.",
+    "comingSoonTitle": "Materiale in arrivo",
+    "comingSoonText": "Sto raccogliendo le foto delle sessioni in presenza, dei progressi degli allievi e dei luoghi dove alleno. Aggiornerò questa pagina con costanza."
+  },
+  "contact": {
+    "title": "Contatti",
+    "kicker": "Scrivimi",
+    "lead": "Per un programma, per una sessione di prova, per parlare. Risposta entro 48 ore.",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "subject": "Oggetto",
+      "message": "Messaggio",
+      "send": "Invia il messaggio",
+      "sending": "Invio in corso…",
+      "placeholders": {
+        "name": "Come ti chiami",
+        "email": "Dove posso risponderti",
+        "subject": "Di cosa parliamo",
+        "message": "Raccontami il tuo obiettivo"
+      }
+    },
+    "directContact": "Contatto diretto",
+    "emailLabel": "Email",
+    "instagramLabel": "Instagram",
+    "locationLabel": "Sede",
+    "placeholderValues": {
+      "email": "francesco@example.com",
+      "instagram": "@francesco.cambareri",
+      "location": "Italia · sessioni outdoor e online"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Francesco Cambareri. Tutti i diritti riservati.",
+    "credits": "Le immagini d'archivio provengono da Wikimedia Commons, Wellcome Collection e Library of Congress (pubblico dominio).",
+    "instagram": "Seguimi su Instagram"
+  },
+  "common": {
+    "skipToContent": "Vai al contenuto",
+    "switchLanguage": "Lingua",
+    "viewSource": "Fonte"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "home": "Calisthenics",
+    "about": "About",
+    "services": "Services",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "bookCta": "Train with me"
+  },
+  "home": {
+    "hero": {
+      "kicker": "Physical Culture · 1880 — 2026",
+      "title": "Francesco Cambareri",
+      "subtitle": "Calisthenics Personal Trainer",
+      "lead": "Bodyweight strength has a story over a century long. Every pull-up, every planche, every Indian-club swing carries an inheritance of discipline, elegance and patience. This is my gym.",
+      "ctaPrimary": "Start the journey",
+      "ctaSecondary": "See the gallery"
+    },
+    "manifesto": {
+      "title": "A manifesto, not a method",
+      "p1": "Training the body means training the character. The images on this page tell a century and a half of calisthenics: from Sandow to the athletes of Hamburg 1902, from Prague's Sokol to the schoolyards of 1970s England.",
+      "p2": "Calisthenics isn't a trend. It is a grammar of movement that crosses generations. My job is to give it back to anyone who wants to build lasting strength."
+    },
+    "gallerySection": {
+      "title": "Visual Archive",
+      "subtitle": "A selection of public-domain photographs and illustrations, interleaved with the work of @vintage_calisthenics."
+    },
+    "filters": {
+      "all": "All",
+      "francesco": "Cambareri Archive",
+      "strongmen": "Strongmen",
+      "gymnastics": "Gymnastics",
+      "indian-clubs": "Indian Clubs",
+      "outdoor": "Outdoor",
+      "drawings": "Drawings & Prints",
+      "magazines": "Magazines"
+    }
+  },
+  "about": {
+    "title": "About",
+    "kicker": "Personal Trainer · Calisthenics",
+    "lead": "I'm Francesco Cambareri. Twenty-four years old. I teach calisthenics.",
+    "section1": {
+      "title": "An ancient practice",
+      "body": "I work with the unloaded body because I think calisthenics is the most honest form of training: there are no weights to hide behind, only your mass, gravity and technique. Three things which, put together, build a life."
+    },
+    "section2": {
+      "title": "What I offer",
+      "body": "Personalised programmes built from your actual starting point. I teach the skills — pull-up, dip, planche, front lever, handstand — on top of a solid base of strength, mobility and proprioception."
+    },
+    "section3": {
+      "title": "Who it's for",
+      "body": "For anyone tired of commercial gyms. For anyone who wants to learn a craft of the body. For anyone who believes that physical form is not a quick service but a slow art."
+    }
+  },
+  "services": {
+    "title": "Services",
+    "kicker": "Training programmes",
+    "lead": "Three formats, one same seriousness.",
+    "tiers": {
+      "online": {
+        "name": "Online",
+        "tag": "Remote",
+        "price": "On request",
+        "desc": "Personalised programme, weekly sessions, video feedback, continuous contact. Works if you can train on your own.",
+        "features": [
+          "Progressive calisthenics plan",
+          "Video tutorials & corrections",
+          "Weekly check-ins",
+          "Skill planning"
+        ]
+      },
+      "inPerson": {
+        "name": "In-person",
+        "tag": "Most complete",
+        "price": "On request",
+        "desc": "1-to-1 sessions in the park or in outdoor gyms. Calisthenics lives on contact: posture cannot be corrected through a video.",
+        "features": [
+          "Individual sessions",
+          "Monthly programming",
+          "Specific-skill work",
+          "Mobility & prevention"
+        ]
+      },
+      "hybrid": {
+        "name": "Hybrid",
+        "tag": "Most common choice",
+        "price": "On request",
+        "desc": "One in-person session a month plus online follow-up. The best way to combine continuity and technical correction.",
+        "features": [
+          "Monthly in-person session",
+          "Online plan + weekly check-ins",
+          "Periodic evaluation",
+          "Long-term programming"
+        ]
+      }
+    },
+    "cta": "Get in touch for a quote"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "kicker": "Work, students, archive",
+    "lead": "My gym has no walls. Photos of sessions, students' progress and the places where I train. Historical images live next to today's.",
+    "comingSoonTitle": "More to come",
+    "comingSoonText": "I'm putting together photos of in-person sessions, students' progress and the places I train. I'll keep updating this page."
+  },
+  "contact": {
+    "title": "Contact",
+    "kicker": "Write to me",
+    "lead": "For a programme, a trial session, or just to talk. I reply within 48 hours.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send message",
+      "sending": "Sending…",
+      "placeholders": {
+        "name": "Your name",
+        "email": "Where I can reach you",
+        "subject": "What's it about",
+        "message": "Tell me your goal"
+      }
+    },
+    "directContact": "Direct contact",
+    "emailLabel": "Email",
+    "instagramLabel": "Instagram",
+    "locationLabel": "Location",
+    "placeholderValues": {
+      "email": "francesco@example.com",
+      "instagram": "@francesco.cambareri",
+      "location": "Italy · outdoor & online sessions"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Francesco Cambareri. All rights reserved.",
+    "credits": "Archival images: Wikimedia Commons, Wellcome Collection, Library of Congress (public domain).",
+    "instagram": "Follow on Instagram"
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "switchLanguage": "Language",
+    "viewSource": "Source"
+  }
+}

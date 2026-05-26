@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Vintage paper background and noise texture ---------- */
+:root {
+  --paper-tone: 36 60% 95%;
+  --ink-tone: 30 60% 8%;
+}
+
+html,
+body {
+  background-color: #FBF7EE; /* cream-50 */
+  color: #2A1D0E;            /* sepia-800 */
+  font-family: var(--font-body, Lora), Georgia, serif;
+}
+
+body {
+  /* Subtle paper grain overlay */
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(110, 80, 40, 0.06), transparent 35%),
+    radial-gradient(circle at 88% 82%, rgba(110, 80, 40, 0.05), transparent 35%),
+    url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.2  0 0 0 0 0.1  0 0 0 0 0  0 0 0 0.06 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  background-attachment: fixed;
+  background-size: cover, cover, 220px 220px;
+}
+
+/* Sepia tone applied via filter on images that need a vintage cast */
+.vintage-tone {
+  filter: sepia(0.32) saturate(0.85) contrast(1.02);
+}
+
+/* Decorative double-rule used in section headings */
+.rule-double {
+  background-image:
+    linear-gradient(to bottom, currentColor 50%, transparent 50%),
+    linear-gradient(to bottom, transparent 50%, currentColor 50%);
+  background-size: 100% 1px, 100% 1px;
+  background-position: top, bottom;
+  background-repeat: no-repeat;
+  height: 6px;
+  width: 64px;
+}
+
+/* Drop-cap for opening paragraphs */
+.drop-cap::first-letter {
+  font-family: var(--font-display, "Playfair Display"), Georgia, serif;
+  font-size: 4.5rem;
+  line-height: 0.9;
+  float: left;
+  padding-right: 0.55rem;
+  padding-top: 0.25rem;
+  color: #553C1F;
+  font-weight: 700;
+}
+
+/* Smooth image fade-in */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-up {
+  animation: fadeUp 600ms ease-out both;
+}
+
+/* Focus ring scoped to vintage palette */
+:focus-visible {
+  outline: 2px solid #7A1F2C;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Vintage "stamp" style for era labels */
+.era-stamp {
+  display: inline-block;
+  font-family: var(--font-sans, Inter), system-ui, sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.6rem;
+  border: 1px solid currentColor;
+  color: #553C1F;
+  background: rgba(251, 247, 238, 0.6);
+}
